@@ -1,0 +1,32 @@
+
+#meta_para
+{
+    font: 30px arial;
+}
+
+html
+{
+    font: 40px arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+body
+{
+  background-image: url("/static/image.jpeg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#submit
+{
+    width: 200px;  height: 50px;
+}
+
+#age
+{
+    width: 200px;  height: 30px;
+}
+

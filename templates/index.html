@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='mystyle.css')}}">
+  </head>
+<body style=color:black background="/static/image.jpeg;">
+  <div class="meta">
+    <div id="meta_head">
+      <h2 >NEWS GROUP PREDICTION</h2>
+    </div>
+    <div id="meta_para">
+      <p style=color:black;">Welcome to News Group Prediction model.</p>
+      <p> It will predict the news group of the latest tweet from the given user and classify it into one of 20 classes. Enjoy! </p>
+    </div>
+  </div>
+  <img src="/static/image.jpeg"/>`
+  <div class="form_holder">
+    <div id="form_wrap">
+      <form action="/result" method="POST">
+        <div class="label">
+          <label for="Sentence">Please input twitter username:</label>
+          <input type="text" id="age" name="age">
+          <br>
+        </div>
+        <input id="submit" type="submit" value="Submit">
+        <h4> Prediction = {{ prediction }}</h4>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
