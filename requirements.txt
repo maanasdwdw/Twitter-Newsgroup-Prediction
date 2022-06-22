@@ -9,7 +9,7 @@ Jinja2==2.10.3
 joblib==0.14.0
 kafka-python==1.4.7
 MarkupSafe==1.1.1
-numpy==1.17.2
+numpy==1.22.0
 oauthlib==3.1.0
 PySocks==1.7.1
 requests==2.22.0
